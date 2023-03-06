@@ -223,8 +223,3 @@ elif count >= 5:
     'まずまずだね！'
 else:
     'もっと頑張ろう！'
-
-url = f'https://twitter.com/intent/tweet?text=「アニメ「目」クイズ！！」をプレイしました！10問中{count}問正解！https://anime-eyequiz.streamlit.app'
-
-st.write('下記のリンクから結果をツイートしよう！')
-st.write(url)
