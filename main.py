@@ -14,8 +14,8 @@ expander3 = st.expander('3.問題は全部で10問！')
 expander3.write('全問正解を目指そう！')
 
 st.write('問1')
-img1 = Image.open('eye/nadeshiko_eye.jpg')
-st.image(img1)
+img = Image.open('eye/nadeshiko_eye.jpg')
+st.image(img)
 
 text = st.text_input(key=1, label='回答')
 if text == '各務原なでしこ' or text == '各務原' or text == 'かがみはらなでしこ' or text == 'かがみはら' or text == 'なでしこ':
